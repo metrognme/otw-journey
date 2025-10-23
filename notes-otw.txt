@@ -1,0 +1,29 @@
+OVER THE WHIRE NOTES
+
+BANDIT0
+Password: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+How to: used Ls to find a "readme" file in the home directory, used cat command to see it's content, and it was there.
+
+BANDIT1
+Password: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+How to: the password was inside a file named "-". This type of file is hard to interact through terminal. The trick is to write the full filename, in this case "./-".
+
+BANDIT2
+Password: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+How to: the filename had spaces, but this one I already knew how to solve, using \ befor the spaces to allow the terminal to interpret em.
+
+BANDIT3
+Password: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+How to: easy one, was inside a hidden file, but I already knew hot to use the ls -a to show hidden files.
+
+BANDIT4
+Password: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+How to: the trick here was to use the * to reprensent all the files in the directory, once I runned the file command to see what type o file was with the * ans it listed that only one was not data, I did a cat command to the file and boom!
+
+BANDIT5
+Password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+How to: I'm a little lost in this one, not gonna lie. In the end I managed to find the correct file using a file -size 1033c command but not sure why it works yet. The c specifies the bytes as gemini told me but I do not undestend why.
+
+BANDIT6
+Password:
+
