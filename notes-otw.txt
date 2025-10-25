@@ -25,5 +25,24 @@ Password: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 How to: I'm a little lost in this one, not gonna lie. In the end I managed to find the correct file using a file -size 1033c command but not sure why it works yet. The c specifies the bytes as gemini told me but I do not undestend why.
 
 BANDIT6
-Password:
+Password: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+Hot to: find / -user bandit7 -group bandit6 -size 33c \\ from what I understand the command find searchs recursively in the /root directory for something that belongs to -user bandit7 -group bandit6 and size 33c bytes, the hints the game gave me.
 
+BANDIT7
+Password: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+Hot to: used the command grep the word provided and specified the file to be searched.
+
+BANDIT8
+Password: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+How to: sort data.txt | uniq -u \\\\\ uniq with the option -u returns the line that is unique. But IDK why I need to sort the file first so it works.
+
+BANDIT9
+Password: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+How to: used string command and look the file for the something after a bunch of ====== as the hint specified.
+
+BANDITA10
+Password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+How to: Learned about base 64, use de command with option -d do decript the data.txt and obtain the password.
+
+BANDIT11
+Password:
