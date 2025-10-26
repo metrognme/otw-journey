@@ -45,4 +45,8 @@ Password: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 How to: Learned about base 64, use de command with option -d do decript the data.txt and obtain the password.
 
 BANDIT11
+Password:7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+How to: used and learned about the command tr that is to translate, "tr [conjunto_de_entrada] [conjunto_de_saída]", rotanting 13 positions it stands cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'.
+
+BANDIT12
 Password:
